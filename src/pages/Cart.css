@@ -1,0 +1,15 @@
+
+
+@media only screen and (max-width:480px) {
+    .imgs{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width:481px) {
+    .imgs{
+        width: 120px;
+        height: 120px;
+    }
+}

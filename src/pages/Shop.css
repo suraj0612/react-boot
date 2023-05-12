@@ -1,0 +1,32 @@
+.proper{
+    width: 100%;
+    display: grid;
+    height: auto;
+    grid-template-columns:  1fr 1fr 1fr;
+    place-items: center;
+}
+
+@media only screen and (min-width:1000px) {
+    .shop_imag{
+        width:80px;
+        height:80px;
+    }
+}
+.btnn{
+    padding: 1px;
+}
+
+.shop_imag{
+    margin-top: 10px;
+}
+
+.boxi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnn:hover{
+    background-color: rgb(176, 39, 8);
+}
